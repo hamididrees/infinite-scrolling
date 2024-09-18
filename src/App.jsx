@@ -21,7 +21,7 @@ function App() {
   }, []);
 
   const pages = Math.ceil(products.length / 5);
-  console.log(pages);
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       (param) => {
